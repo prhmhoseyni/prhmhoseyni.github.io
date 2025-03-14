@@ -1,0 +1,7 @@
+echo "📌 Running pre-commit hook..."
+
+npm run lint ||
+    (
+        echo "Lint Check Failed."
+        false
+    )
