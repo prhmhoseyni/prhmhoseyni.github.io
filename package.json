@@ -5,7 +5,9 @@
     "scripts": {
         "dev": "next dev --turbopack",
         "build": "next build",
+        "export": "next export",
         "start": "next start",
+        "deploy": "npm run build && npm run export && gh-pages -d out",
         "lint": "next lint",
         "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
         "prepare": "husky"
@@ -27,6 +29,7 @@
         "eslint-config-next": "15.2.2",
         "eslint-config-prettier": "^10.1.1",
         "eslint-plugin-prettier": "^5.2.3",
+        "gh-pages": "^6.3.0",
         "husky": "^9.1.7",
         "prettier": "^3.5.3",
         "tailwindcss": "^4",
