@@ -1,0 +1,82 @@
+[
+    {
+        "title": "Core Technologies",
+        "items": [
+            "JavaScript",
+            "TypeScript",
+            "React",
+            "Next",
+            "Browser APIs",
+            "Responsive Web Design",
+            "Git",
+            "Async Programming",
+            "Functional Programming",
+            "OOP"
+        ]
+    },
+    {
+        "title": "State Management & Data Fetching",
+        "items": [
+            "Redux",
+            "Redux Toolkit",
+            "Redux Saga",
+            "Zustand",
+            "SWR",
+            "TanStackQuery",
+            "Axios",
+            "Socket.IO"
+        ]
+    },
+    {
+        "title": "UI & Styling",
+        "items": [
+            "Tailwind CSS",
+            "SASS",
+            "Bootstrap",
+            "MUI",
+            "Styled Components"
+        ]
+    },
+    {
+        "title": "Testing & Code Quality",
+        "items": [
+            "TDD/BDD",
+            "Unit/Integration/E2E Testing",
+            "Jest",
+            "Mocha",
+            "Chai",
+            "Storybook",
+            "ESLint/Prettier",
+            "Husky"
+        ]
+    },
+    {
+        "title": "Advanced Concepts & Best Practices",
+        "items": [
+            "PWA (Progressive Web Applications)",
+            "TWA (Trusted Web Activity)",
+            "JAMStack (JavaScript, APIs, Markup)",
+            "Cryptography (Hashing, PGP, Key Exchange)",
+            "Multi-language Project (Bi-directional Layout)",
+            "Multi-theme Project (dark and light)"
+        ]
+    },
+    {
+        "title": "Mapping & Data Visualization",
+        "items": [
+            "Neshan Maps APIs",
+            "Leaflet",
+            "Chart.js",
+            "Three.js"
+        ]
+    },
+    {
+        "title": "DevOps",
+        "items": [
+            "Docker",
+            "Kubernetes",
+            "Nexus",
+            "Zookeeper"
+        ]
+    }
+]

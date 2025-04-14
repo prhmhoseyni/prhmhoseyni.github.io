@@ -1,0 +1,38 @@
+[
+    {
+        "href": "https://housing.pod.ir",
+        "title": "Mava",
+        "subtitle": "Housing Deposit Loan Facilitation Platform",
+        "src": "/images/mava.jpg"
+    },
+    {
+        "href": "https://web.podcharge.ir",
+        "title": "Pod Charge",
+        "subtitle": "Smart Building Management Platform",
+        "src": "/images/podcharge.jpg"
+    },
+    {
+        "href": "http://podform.ir",
+        "title": "Pod Form",
+        "subtitle": "Online Form Builder",
+        "src": "/images/podform.jpg"
+    },
+    {
+        "href": "https://www.npmjs.com/package/the-dig",
+        "title": "DIG",
+        "subtitle": "Design Interface Guide - Tailwind CSS Components Library",
+        "src": "/images/npm.jpg"
+    },
+    {
+        "href": "https://www.npmjs.com/package/react-persian-form",
+        "title": "React Persian Form",
+        "subtitle": "React Form Builder for Persian Forms",
+        "src": "/images/npm.jpg"
+    },
+    {
+        "href": "https://radargps.org/product/pet-tracker",
+        "title": "Pet Tracker ",
+        "subtitle": "GPS Tracking for Pets",
+        "src": "/images/pet-tracker.jpg"
+    }
+]

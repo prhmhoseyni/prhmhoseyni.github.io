@@ -1,15 +1,12 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter } from "next/font/google";
 import type { ReactNode } from "react";
+import Header from "~/components/Header";
+import Navigation from "~/components/Navigation";
 import "./globals.css";
 
-const geistSans = Geist({
-    variable: "--font-geist-sans",
-    subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-    variable: "--font-geist-mono",
+const inter = Inter({
+    variable: "--font-sans",
     subsets: ["latin"],
 });
 
@@ -20,8 +17,18 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
     return (
-        <html lang="en">
-            <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>{children}</body>
+        <html lang="en" dir="ltr">
+            <body className={`${inter.className} container mx-auto max-w-6xl`}>
+                <div className="flex flex-col gap-8 lg:flex-row lg:justify-center px-4 pt-4 pb-20">
+                    <Header />
+
+                    <main id="main" className="w-full bg-background-secondary border border-border-primary rounded-4xl">
+                        <Navigation />
+
+                        {children}
+                    </main>
+                </div>
+            </body>
         </html>
     );
 }

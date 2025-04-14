@@ -1,0 +1,38 @@
+[
+    {
+        "company": "Dotin",
+        "logo": "",
+        "position": "Senior Frontend Developer",
+        "from": "May 2022",
+        "to": "Now",
+        "duration": "+3 years",
+        "linkedin": "https://linkedin.com/company/dotin"
+    },
+    {
+        "company": "Radar GPS",
+        "logo": "",
+        "position": "Frontend Developer",
+        "from": "Jan 2022",
+        "to": "Apr 2022",
+        "duration": "4 mos",
+        "linkedin": "https://linkedin.com/company/radargps"
+    },
+    {
+        "company": "Maktab Sharif",
+        "logo": "",
+        "position": "Mentor & Teacher Assistant",
+        "from": "Jan 2022",
+        "to": "Sep 2022",
+        "duration": "9 mos",
+        "linkedin": "https://linkedin.com/company/maktabsharif"
+    },
+    {
+        "company": "Freelancer",
+        "logo": "",
+        "position": "Frontend Developer",
+        "from": "Jul 2021",
+        "to": "Dec 2021",
+        "duration": "6 mos",
+        "linkedin": null
+    }
+]
