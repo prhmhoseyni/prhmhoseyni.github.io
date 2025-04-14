@@ -1,14 +1,7 @@
 import PageContainer from "~/components/PageContainer";
+import skills from "~/data/skills.json";
 
-interface Skill {
-    title: string;
-    items: string[];
-}
-
-export default async function Skills() {
-    const response = await fetch("http://localhost:3000/data/skills.json");
-    const skills: Skill[] = await response.json();
-
+export default function Skills() {
     return (
         <PageContainer title="Skills">
             <ul className="flex flex-col gap-8">

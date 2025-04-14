@@ -1,20 +1,8 @@
 import Link from "next/link";
 import PageContainer from "~/components/PageContainer";
+import experiences from "~/data/experiences.json";
 
-interface Experience {
-    company: string;
-    logo: string;
-    position: string;
-    from: string;
-    to: string;
-    duration: string;
-    linkedin: string;
-}
-
-export default async function Experiences() {
-    const response = await fetch("http://localhost:3000/data/experiences.json");
-    const experiences: Experience[] = await response.json();
-
+export default function Experiences() {
     return (
         <PageContainer title="Experiences">
             <ul className="flex flex-col gap-8">

@@ -1,18 +1,9 @@
 import PageContainer from "~/components/PageContainer";
 import Link from "next/link";
 import Image from "next/image";
+import projects from "~/data/projects.json";
 
-interface Project {
-    href: string;
-    title: string;
-    subtitle: string;
-    src: string;
-}
-
-export default async function Projects() {
-    const response = await fetch("http://localhost:3000/data/projects.json");
-    const projects: Project[] = await response.json();
-
+export default function Projects() {
     return (
         <PageContainer title="Projects">
             <ul className="grid grid-cols-1 lg:grid-cols-2 gap-8">
